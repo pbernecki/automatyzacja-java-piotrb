@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="158c2de9-eb7d-4b27-90ff-8bcedb5618af" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="dca95850-470d-4424-888d-e3afcc0ac808" name="Default Changelist" comment="automaty druga wersja rename calculator class">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kalkulator/KalkulatorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/CalculatorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kalkulator/KalkulatorAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/calculator/CalculatorAppTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,67 +19,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kalkulator/KalkulatorApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <element signature="e#83#84#0" expanded="true" />
-                <element signature="e#109#110#0" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kalkulator/KalkulatorAppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="646">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/kalkulator/KalkulatorApp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/kalkulator/KalkulatorAppTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/calculator/KalkulatorAppTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/calculator/CalculatorAppTest.java" />
       </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -93,11 +57,12 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -114,6 +79,11 @@
             <path>
               <item name="autojava" type="b2602c69:ProjectViewProjectNode" />
               <item name="automaty" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automaty" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -135,7 +105,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kalkulator" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="autojava" type="b2602c69:ProjectViewProjectNode" />
@@ -145,7 +115,23 @@
             </path>
             <path>
               <item name="autojava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="automaty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automaty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automaty" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,21 +141,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544533196201" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="kalkulator" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544538579232" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -183,92 +155,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KalkulatorAppTest.divideTwoPositiveDouble">
-    <configuration name="KalkulatorAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automaty" />
+  <component name="RunManager">
+    <configuration name="CalculatorAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="autojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kalkulator.*" />
+          <option name="PATTERN" value="calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kalkulator" />
-      <option name="MAIN_CLASS_NAME" value="kalkulator.KalkulatorAppTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KalkulatorAppTest.addDecimalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automaty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kalkulator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kalkulator" />
-      <option name="MAIN_CLASS_NAME" value="kalkulator.KalkulatorAppTest" />
-      <option name="METHOD_NAME" value="addDecimalTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KalkulatorAppTest.addTwoPositiveDoubles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automaty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kalkulator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kalkulator" />
-      <option name="MAIN_CLASS_NAME" value="kalkulator.KalkulatorAppTest" />
-      <option name="METHOD_NAME" value="addTwoPositiveDoubles" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KalkulatorAppTest.addTwoPositiveIntegers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automaty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kalkulator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kalkulator" />
-      <option name="MAIN_CLASS_NAME" value="kalkulator.KalkulatorAppTest" />
-      <option name="METHOD_NAME" value="addTwoPositiveIntegers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KalkulatorAppTest.divideTwoPositiveDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automaty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kalkulator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kalkulator" />
-      <option name="MAIN_CLASS_NAME" value="kalkulator.KalkulatorAppTest" />
-      <option name="METHOD_NAME" value="divideTwoPositiveDouble" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorAppTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KalkulatorAppTest.divideTwoPositiveDouble" />
-        <item itemvalue="JUnit.KalkulatorAppTest.addTwoPositiveIntegers" />
-        <item itemvalue="JUnit.KalkulatorAppTest.addTwoPositiveDoubles" />
-        <item itemvalue="JUnit.KalkulatorAppTest" />
-        <item itemvalue="JUnit.KalkulatorAppTest.addDecimalTest" />
+        <item itemvalue="JUnit.CalculatorAppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -277,70 +181,47 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="158c2de9-eb7d-4b27-90ff-8bcedb5618af" name="Default Changelist" comment="" />
-      <created>1544517535691</created>
+      <changelist id="dca95850-470d-4424-888d-e3afcc0ac808" name="Default Changelist" comment="" />
+      <created>1544537518404</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544517535691</updated>
+      <updated>1544537518404</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KalkulatorAppTest_divideTwoPositiveDouble - 2018.12.11 at 12h 19m 13s.xml">
-      <configuration name="KalkulatorAppTest.divideTwoPositiveDouble" configurationId="JUnit" />
+    <history-entry file="KalkulatorAppTest - 2018.12.11 at 15h 12m 57s.xml">
+      <configuration name="KalkulatorAppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KalkulatorAppTest_divideTwoPositiveDouble - 2018.12.11 at 12h 20m 39s.xml">
-      <configuration name="KalkulatorAppTest.divideTwoPositiveDouble" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KalkulatorAppTest_divideTwoPositiveDouble - 2018.12.11 at 12h 21m 16s.xml">
-      <configuration name="KalkulatorAppTest.divideTwoPositiveDouble" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KalkulatorAppTest_divideTwoPositiveDouble - 2018.12.11 at 12h 22m 34s.xml">
-      <configuration name="KalkulatorAppTest.divideTwoPositiveDouble" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KalkulatorAppTest_divideTwoPositiveDouble - 2018.12.11 at 12h 23m 52s.xml">
-      <configuration name="KalkulatorAppTest.divideTwoPositiveDouble" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KalkulatorAppTest_divideTwoPositiveDouble - 2018.12.11 at 12h 26m 00s.xml">
-      <configuration name="KalkulatorAppTest.divideTwoPositiveDouble" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KalkulatorAppTest_divideTwoPositiveDouble - 2018.12.11 at 12h 26m 09s.xml">
-      <configuration name="KalkulatorAppTest.divideTwoPositiveDouble" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KalkulatorAppTest_addTwoPositiveDoubles - 2018.12.11 at 12h 34m 10s.xml">
-      <configuration name="KalkulatorAppTest.addTwoPositiveDoubles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KalkulatorAppTest_addTwoPositiveIntegers - 2018.12.11 at 12h 34m 17s.xml">
-      <configuration name="KalkulatorAppTest.addTwoPositiveIntegers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KalkulatorAppTest_divideTwoPositiveDouble - 2018.12.11 at 12h 34m 22s.xml">
-      <configuration name="KalkulatorAppTest.divideTwoPositiveDouble" configurationId="JUnit" />
+    <history-entry file="CalculatorAppTest - 2018.12.11 at 15h 25m 03s.xml">
+      <configuration name="CalculatorAppTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32963374" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32963374" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27192008" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30854607" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" visible="true" weight="0.14925373" />
+      <window_info anchor="right" id="Maven" weight="0.23560767" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -348,120 +229,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/automaty.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kalkulator/KalkulatorApp.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="646">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kalkulator/KalkulatorAppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>automaty</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
