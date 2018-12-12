@@ -1,0 +1,44 @@
+﻿//h2[@class="entry-title"]/a[text()="O transformacjach"]
+
+Przykład selektora 
+
+
+FF
+
+Jeśli chcecie się przepiąć na firefoxa to trzeba pobrać coś, co się nazywa gecko driver:
+
+
+https://github.com/mozilla/geckodriver/releases
+(wybieramy wersję zgodną z naszym Firefoxem)
+
+Następnie rozpakowujemy 
+i wrzucamy geckodriver.exe do miejsca, gdzie windows szuka executabli (czyli dodanego do PATH) 
+albo też możemy skopiować gdziekolwiek (np. w C:\Drivers\) 
+i wtedy uruchomienie drivera będzie wymagało dodania w kodzie:
+
+
+System.setProperty("webdriver.gecko.driver", "C:\\Drivers\\geckodriver.exe");
+
+A dopiero potem:
+
+driver = new FirefoxDriver();
+
+czasem potrzeba profil podać - dla starszych wersji ff
+GitHub 
+mozilla/geckodriver
+
+IE
+Dla IE trzeba pobrać IE drivera, przy czym to nie starczy - trzeba też skonfigurować stosownie IE wedle instrukcji. 
+Pobranie i instrukcja tutaj:
+
+https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver
+GitHub SeleniumHQ/selenium
+
+Edge
+Dla Edge potrzebujemy czegoś nazywanego Microsoft WebDriver:
+
+https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+WebDriver - Microsoft Edge Development
+
+Projekt obiektowy
+https://github.com/rafal-codesprinters/auto-java-dec-2018/tree/master/autojava/src/test/java/selenium/pagebjects
