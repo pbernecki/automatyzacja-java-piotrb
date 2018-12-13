@@ -42,3 +42,16 @@ WebDriver - Microsoft Edge Development
 
 Projekt obiektowy
 https://github.com/rafal-codesprinters/auto-java-dec-2018/tree/master/autojava/src/test/java/selenium/pagebjects
+
+Dane logowania na stronie:
+https://automatyzacja.benedykt.net/wp-admin
+
+user: automatyzacja   
+pass: jesien2018
+
+
+Podrzucam graficzną prezentację jak działają css selektory
+ https://www.w3schools.com/cssref/trysel.asp
+
+
+!! https://junit.org/junit5/docs/current/user-guide/

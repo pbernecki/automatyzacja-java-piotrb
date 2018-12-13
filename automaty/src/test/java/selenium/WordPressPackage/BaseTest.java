@@ -1,16 +1,13 @@
-package selenium.pageobjects;
+package selenium.WordPressPackage;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
-
     protected WebDriver driver;  //klasy pochodne (extends BaseTest) też to widzą i używają
 
     @BeforeEach
@@ -24,8 +21,5 @@ public class BaseTest {
     @AfterEach
     public void quitBrowser() {
         driver.quit();
-    }
-
-    protected String generateRandomText() {return UUID.randomUUID().toString();
     }
 }

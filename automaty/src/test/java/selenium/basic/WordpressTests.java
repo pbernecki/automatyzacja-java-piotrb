@@ -67,27 +67,27 @@ public class WordpressTests {
 
     @Test
     public void addCommentToFirstNote() {
-        String comment = UUID.randomUUID().toString();
+        String comment = UUID.randomUUID().toString();  //randomowe dane
         String author = UUID.randomUUID().toString();
         String email = UUID.randomUUID() + "@test.com";
 
-        driver.get("https://automatyzacja.benedykt.net");
+        driver.get("https://automatyzacja.benedykt.net"); //ładowanie strony
 
-        driver.findElement(By.cssSelector("article.post"))
+        driver.findElement(By.cssSelector("article.post")) //znaleznienie elementu strony
                 .findElement(By.className("entry-title"))
                 .findElement(By.tagName("a"))
                 .click();
 
         Assertions.assertEquals(1, driver.findElements(By.cssSelector("body.single-post")).size(),
-                "Single note page is displayed");
+                "Single note page is displayed");  //sprawdzenie że jest tylko jeden
 
-        driver.findElement(By.id("comment")).sendKeys(comment);
+        driver.findElement(By.id("comment")).sendKeys(comment);  //załadowanie randomowych danych
 
         driver.findElement(By.id("author")).sendKeys(author);
 
         driver.findElement(By.id("email")).sendKeys(email);
 
-        WebElement submit = driver.findElement(By.id("submit"));
+        WebElement submit = driver.findElement(By.id("submit"));  //javaScript pozwala przesunąc zawartośc ekranu aby dostępny był klik na buttonie
         JavascriptExecutor jsExec = (JavascriptExecutor) driver;
         jsExec.executeScript("arguments[0].scrollIntoView(true);", submit);
         submit.click();
@@ -95,9 +95,9 @@ public class WordpressTests {
         Stream<WebElement> comments = driver.findElements(By.cssSelector(".comment-list > .comment"))
                 .stream()
                 .filter(c -> c.findElement(By.cssSelector(".comment-author > b")).getText().equals(author))
-                .filter(c -> c.findElement(By.cssSelector(".comment-content > p")).getText().equals(comment));
+                .filter(c -> c.findElement(By.cssSelector(".comment-content > p")).getText().equals(comment));  //wyszukanie dodanego elementu strony
 
-        Assertions.assertEquals(1, comments.count(), "Exactly one matching comment is published");
+        Assertions.assertEquals(1, comments.count(), "Exactly one matching comment is published");  //sprawdzenie czy jest tylko jeden rezultat
     }
 
     @AfterEach

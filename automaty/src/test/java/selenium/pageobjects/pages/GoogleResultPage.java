@@ -7,9 +7,10 @@ import org.openqa.selenium.WebElement;
 import java.util.stream.Stream;
 
 public class GoogleResultPage {
-    public static final By RESULT_LOC = By.cssSelector("#search .rc .r");
+    private static final By RESULT_LOC = By.cssSelector("#search .rc .r");
+    private static final By LOC_RESULT_TITLE = By.tagName("h3");
 
-    public GoogleResultPage(WebDriver driver) {
+    public GoogleResultPage(WebDriver driver) {  //konstruktor klasy GoogleResultPage
         grpDriver = driver;
     }
 
@@ -19,7 +20,7 @@ public class GoogleResultPage {
     public boolean contains(String resultUrl) {
         Stream<WebElement> results = getResultsByUrl(resultUrl);
 
-        if (results.count() > 0) {
+        if (results.count() > 0) {  //alternatywna wersja: return results.count() > 0
             return true;
         } else {
             return false;
@@ -27,8 +28,8 @@ public class GoogleResultPage {
     }
 
     public boolean containsResultWithTitle(String pageUrl, String pageTitle) {
-        Stream<WebElement> results = getResultsByUrl(pageUrl)
-                .filter(n -> n.findElement(By.tagName("h3")).getText().equals(pageTitle));
+        Stream<WebElement> results = getResultsByUrl(pageUrl)  //zwraca stream
+                .filter(n -> n.findElement(LOC_RESULT_TITLE).getText().equals(pageTitle)); //tu filtrujemy stream po tytule
         if (results.count() > 0) {
             return true;
         } else {
