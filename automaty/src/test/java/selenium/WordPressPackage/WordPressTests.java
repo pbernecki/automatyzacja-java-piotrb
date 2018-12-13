@@ -11,20 +11,16 @@ public class WordPressTests extends BaseTest {
 
     @Test
     public void canAddCommentToFirstNote(){
-        //open wordpress main page
 
-        //open first note
-        //add comment to first note
-        //check that comment is added
-        String comment = generateRandomText();
+        String comment = generateRandomText();  //generuję dane
         String author = "Piotr "+generateRandomText();
         String email = generateRandomEmail();
 
-        WpMainPage mainPage = new WpMainPage(driver);
-        WpNotePage latestNote = mainPage.openLatestNote();
-        WpNotePage latestNoteWithComment = latestNote.addComment(comment, author, email);
+        WpMainPage mainPage = new WpMainPage(driver); //open wordpress main page
+        WpNotePage latestNote = mainPage.openLatestNote();  //open first note
+        WpNotePage latestNoteWithComment = latestNote.addComment(comment, author, email); //add comment to first note
 
-        Assertions.assertTrue(latestNoteWithComment.commentExists(comment, author));
+        Assertions.assertTrue(latestNoteWithComment.commentExists(comment, author)); //check that comment is added
     }
 
     private String generateRandomEmail() {
