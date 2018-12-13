@@ -12,7 +12,7 @@ public class BaseTest {
 
     @BeforeEach
     public void startBrowser() {
-        System.setProperty("webdriver.chrome.driver", "c:\\selenium\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "c:\\selenium\\chromedriver_win32\\chromedriver.exe"); //nie dla selenium GRIDa!3
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

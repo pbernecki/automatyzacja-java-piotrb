@@ -3,6 +3,10 @@ package selenium.WordPressPackage.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -35,5 +39,18 @@ public class WpNotePage {
         List<WebElement> filteredComments = listOfComments.collect(Collectors.toList());  //stream zamieniamy na listę
 
         return filteredComments.size() > 0;
+    }
+
+    public void wait10Sec(WebElement kocurek){
+        //WebElement kocurek1 = notDriver.findElement(By.id("abc"));
+        //tu można zdefiniować konkretny WebElement o nazwie kocurek1, ale wtedy nie jest konieczny parametr metody
+
+        WebDriverWait wait = new WebDriverWait(notDriver, 10);
+        wait.until(ExpectedConditions.visibilityOf(kocurek));
+    }
+
+    public void hooverOverElement(WebElement element){ //przesuwa kursor nad element
+        Actions action = new Actions(notDriver);
+        action.moveToElement(element).build().perform();
     }
 }
